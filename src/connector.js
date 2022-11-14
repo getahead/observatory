@@ -42,7 +42,7 @@ module.exports = class Jira {
       authentication: {
         basic: {
           username: options.username,
-          apiToken: options.password,
+          apiToken: options.token,
         },
       },
     })
