@@ -6,7 +6,7 @@ module.exports = {
   username: undefined,
 
   // Your Jira password.
-  password: undefined,
+  token: undefined,
 
   // Maximum number of issues processed during single request.
   bulk_limit: 50,

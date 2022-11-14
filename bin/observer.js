@@ -10,7 +10,7 @@ const statistics = require('../src/statistics')
 const jira = new Jira({
   host: config.host,
   username: config.username,
-  password: config.password,
+  token: config.token,
 })
 const program = new commander.Command()
 

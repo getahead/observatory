@@ -12,7 +12,7 @@ const statistics = require('./statistics')
 const jira = new Jira({
   host: config.host,
   username: config.username,
-  password: config.password,
+  token: config.token,
 })
 
 const db = new DB()

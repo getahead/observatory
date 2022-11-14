@@ -75,6 +75,7 @@ module.exports = class Filter {
     return this.issueType([
       'Bug',
       'Bugfix',
+      '"QA Task"',
       '"Dev task"',
       '"Dev sub task"',
       'Task',

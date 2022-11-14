@@ -11,7 +11,7 @@ const log = require('./log').extend('time')
 const jira = new Jira({
   host: config.host,
   username: config.username,
-  password: config.password,
+  token: config.token,
 })
 
 async function main() {
